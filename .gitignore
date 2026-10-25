@@ -1,0 +1,8 @@
+# Dataset (download from Kaggle; too large for GitHub)
+notebooks/data/
+*.csv
+
+# Jupyter / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
