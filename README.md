@@ -128,7 +128,7 @@ The recommended model reduces total cost by **65%** compared with doing nothing.
 #### Outline of project
 
 - [[Notebook 1: Data cleaning, exploratory data analysis and baseline model](notebooks/1_eda_and_baseline.ipynb)](https://github.com/vineetabansalt-creator/Final-capstone-credit-card-fraud/blob/main/1_eda_and_baseline.ipynb)
-- [Notebook 2: Model tuning, comparison, interpretation and business recommendation](notebooks/2_modeling_and_evaluation.ipynb)
+-[ [Notebook 2: Model tuning, comparison, interpretation and business recommendation](notebooks/2_modeling_and_evaluation.ipynb)](https://github.com/vineetabansalt-creator/Final-capstone-credit-card-fraud/blob/main/2_modeling_and_evaluation.ipynb)
 
 **Repository structure**
 
