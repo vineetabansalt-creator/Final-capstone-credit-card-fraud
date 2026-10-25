@@ -147,6 +147,4 @@ The recommended model reduces total cost by **65%** compared with doing nothing.
 
 ##### Contact and Further Information
 
-[Your Name]
-Email: [your email]
-[LinkedIn](https://www.linkedin.com/in/your-profile)
+Vineeta Bansal
