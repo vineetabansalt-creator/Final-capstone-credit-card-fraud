@@ -86,7 +86,7 @@ Each transaction has:
 
 XGBoost and Random Forest tied on the test data. I recommend XGBoost because it scored slightly higher during tuning, had the highest precision, and trained about six times faster, which matters because fraud models need regular retraining.
 
-![Model comparison](images/model_comparison.png)
+![Model comparison](model_comparison.png)
 
 **2. The simplest way of handling rare fraud worked best.** Giving fraud extra weight did as well as or better than generating synthetic fraud or throwing away legitimate data.
 
@@ -105,11 +105,11 @@ XGBoost and Random Forest tied on the test data. I recommend XGBoost because it 
 
 The recommended model reduces total cost by **65%** compared with doing nothing. Notice that the amount rule and the "catch almost everything" model both cost **more** than having no model, because of the review workload their false alarms create.
 
-![Results of the recommended model](images/final_confusion_matrix.png)
+![Results of the recommended model](final_confusion_matrix.png)
 
 **5. The exact alert level matters little for XGBoost.** The model is very decisive: almost every transaction gets a fraud score near 0 or near 1. As a result, a wide range of alert levels gives a total cost within about 6% of the best. The business can therefore set the alert level based on review-team capacity without losing much.
 
-![Cost by alert level](images/cost_curve.png)
+![Cost by alert level](cost_curve.png)
 
 **6. What drives the model.** A handful of the anonymized features, led by V14, do most of the work. The night-time and small-charge patterns are real (about 4 times riskier than average), but the anonymized features already capture this information, so the model doesn't need them as separate inputs.
 
