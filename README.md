@@ -136,11 +136,10 @@ The recommended model reduces total cost by **65%** compared with doing nothing.
 ```
 ├── README.md
 ├── requirements.txt
-├── images/                          charts used in this README
-└── notebooks/
-    ├── 1_eda_and_baseline.ipynb
-    ├── 2_modeling_and_evaluation.ipynb
-    └── data/creditcard.csv          download from Kaggle (not stored in the repo)
+├──All images
+├── 1_eda_and_baseline.ipynb
+├── 2_modeling_and_evaluation.ipynb
+└── data/creditcard.csv          download from Kaggle (not stored in the repo)
 ```
 
 **To run the notebooks:** install the packages in `requirements.txt`, download `creditcard.csv` from the Kaggle link above into `notebooks/data/`, then run notebook 1 followed by notebook 2. Notebook 2 takes about 15 minutes, mostly for the Random Forest tuning.
