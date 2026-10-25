@@ -1,6 +1,6 @@
 ### Detecting Credit Card Fraud with Machine Learning
 
-**[Your Name]**
+Vineeta Bansal
 
 #### Executive summary
 
