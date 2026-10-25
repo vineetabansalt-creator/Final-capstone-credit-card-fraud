@@ -14,7 +14,7 @@ Vineeta Bansal
 
 **Recommendation.** Score transactions with a gradient-boosting model rather than simple amount rules, set the alert level based on how many alerts the review team can handle, and don't chase catching every last fraud: beyond about 75–80% capture, each extra fraud caught costs a disproportionate number of false alarms.
 
-![Total cost and fraud caught by strategy](images/business_comparison.png)
+![Total cost and fraud caught by strategy](business_comparison.png)
 
 #### Rationale
 
