@@ -113,7 +113,7 @@ The recommended model reduces total cost by **65%** compared with doing nothing.
 
 **6. What drives the model.** A handful of the anonymized features, led by V14, do most of the work. The night-time and small-charge patterns are real (about 4 times riskier than average), but the anonymized features already capture this information, so the model doesn't need them as separate inputs.
 
-![Feature importance](images/feature_importance.png)
+![Feature importance](feature_importance.png)
 
 **Limitations.** The data covers only two days in 2013, and the test period contains 74 frauds, so a figure like "77% of fraud caught" could easily vary by several percentage points on other periods. The €5 review cost and the euro currency are assumptions. Because the features are anonymized, the model can't explain *why* a particular transaction looks suspicious.
 
