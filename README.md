@@ -45,15 +45,15 @@ Each transaction has:
 
 *Fraud is extremely rare.* A model that simply labels everything "legitimate" would be 99.8% accurate while catching no fraud at all, so accuracy is useless for judging these models.
 
-![Transactions by class](images/class_distribution.png)
+![Transactions by class](class_distribution.png)
 
 *Fraud happens disproportionately at night.* Normal shopping drops sharply in the early hours, but fraud doesn't, so the share of transactions that are fraud jumps to as much as 1.45% in the quietest hour, nearly 9 times the overall rate.
 
-![Fraud rate by hour](images/fraud_by_hour.png)
+![Fraud rate by hour](fraud_by_hour.png)
 
 *Fraudsters often start small.* Over a third of fraud (36%) is €1 or less, and transactions of €1 or less are more than three times as likely to be fraud as average. This fits a known tactic called card testing, where criminals make a tiny charge to check whether a stolen card works. Most fraud is small, which is why a "flag large purchases" rule fails.
 
-![Fraud rate by amount](images/fraud_by_amount.png)
+![Fraud rate by amount](fraud_by_amount.png)
 
 #### Methodology
 
